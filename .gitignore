@@ -1,0 +1,36 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.venv/
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Raw Large Datasets (FER-2013 raw files)
+data/*.csv
+data/train/
+data/test/
+data/val/
+facial-emotion-recognition/data/*.csv
+facial-emotion-recognition/data/train/
+facial-emotion-recognition/data/test/
+facial-emotion-recognition/data/val/
+
+# Temporary test DBs
+outputs/test_records.db
+facial-emotion-recognition/outputs/test_records.db
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.streamlit/

@@ -1,0 +1,30 @@
+{
+    "emotion_labels": [
+        "Angry",
+        "Disgust",
+        "Fear",
+        "Happy",
+        "Sad",
+        "Surprise",
+        "Neutral"
+    ],
+    "emotion_map": {
+        "0": "Angry",
+        "1": "Disgust",
+        "2": "Fear",
+        "3": "Happy",
+        "4": "Sad",
+        "5": "Surprise",
+        "6": "Neutral"
+    },
+    "input_shape": [
+        48,
+        48,
+        1
+    ],
+    "num_classes": 7,
+    "epochs_trained": 3,
+    "final_train_accuracy": 0.37755101919174194,
+    "final_val_accuracy": 0.1428571492433548,
+    "batch_size": 32
+}

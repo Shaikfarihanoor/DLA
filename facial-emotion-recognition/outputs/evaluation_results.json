@@ -1,0 +1,77 @@
+{
+    "status": "completed",
+    "num_test_samples": 42,
+    "accuracy": 0.14285714285714285,
+    "macro_precision": 0.02040816326530612,
+    "macro_recall": 0.14285714285714285,
+    "macro_f1": 0.03571428571428571,
+    "weighted_precision": 0.02040816326530612,
+    "weighted_recall": 0.14285714285714285,
+    "weighted_f1": 0.03571428571428571,
+    "classification_report": {
+        "Angry": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+        },
+        "Disgust": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+        },
+        "Fear": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+        },
+        "Happy": {
+            "precision": 0.14285714285714285,
+            "recall": 1.0,
+            "f1-score": 0.25,
+            "support": 6.0
+        },
+        "Sad": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+        },
+        "Surprise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+        },
+        "Neutral": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+        },
+        "accuracy": 0.14285714285714285,
+        "macro avg": {
+            "precision": 0.02040816326530612,
+            "recall": 0.14285714285714285,
+            "f1-score": 0.03571428571428571,
+            "support": 42.0
+        },
+        "weighted avg": {
+            "precision": 0.02040816326530612,
+            "recall": 0.14285714285714285,
+            "f1-score": 0.03571428571428571,
+            "support": 42.0
+        }
+    },
+    "emotion_labels": [
+        "Angry",
+        "Disgust",
+        "Fear",
+        "Happy",
+        "Sad",
+        "Surprise",
+        "Neutral"
+    ]
+}
